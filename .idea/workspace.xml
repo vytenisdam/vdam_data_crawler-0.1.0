@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a93348a-15cb-4791-b618-571009455e5d" name="Changes" comment="Added async crawling with threads to main.py">
+    <list default="true" id="0a93348a-15cb-4791-b618-571009455e5d" name="Changes" comment="Working page walking prototype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vdam_data_crawler 0.1.0/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/vdam_data_crawler 0.1.0/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdam_data_crawler 0.1.0/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdam_data_crawler 0.1.0/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +25,17 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ZJwEylJ25jlt8abI8yo1ES9Z0c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -133,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702199484672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working page walking prototype">
+      <option name="closed" value="true" />
+      <created>1702206104974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702206104974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,9 +162,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Added async crawling with threads to main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added async crawling with threads to main.py" />
+    <MESSAGE value="Working page walking prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working page walking prototype" />
   </component>
 </project>
